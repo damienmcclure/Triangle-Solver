@@ -35,9 +35,9 @@ canvas1.create_window(500, 140, window=entry3)
 
 
 def solve():
-    a = int(entry1.get())
-    b = int(entry2.get())
-    c = int(entry3.get())
+    a = float(entry1.get())
+    b = float(entry2.get())
+    c = float(entry3.get())
 
     # calculations
     if c == 0:
